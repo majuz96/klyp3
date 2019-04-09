@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+body{
+	magin:0;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 27px;
+	
+}
+
+
+
+#landing {
+	background-color: #F16C71;
+	text-align: center;
+	height: 100vh;
+	padding: 100px;
+}
+
+#landing{
+	background-image: url(../img/img-2-1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 200px 0
+}
+
+#landing img{
+	margin:auto;
+	margin-top:250px;
+}
+.boton-rosa{
+
+	border:1px solid #fff;
+	color: #fff;
+	background-color: transparent;
+	border-radius: 0;
+	padding: 10px 30px;
+	text-decoration: none;
+	margin-top: 500px;
+}
+
+
+.boton-rosa:hover {
+	background-color: #fff;
+	color:  #F16C71;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.ocultar{
+	display: none;
+}
+
+/*Tablet*/
+@media (min-width: 320px) and (max-width:1024px) {
+.boton-rosa {
+		text-align: center;
+		margin: auto;
+		display: block;
+		width: 40%;
+	}
+}
+
+/*Celular*/
+
+@media (max-width:320px){
+	
+
+	
+	.boton-rosa {
+		text-align: center;
+		margin: auto;
+		display: block;
+		width: 40%;
+	}
+	
+}
